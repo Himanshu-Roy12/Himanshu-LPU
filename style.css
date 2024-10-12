@@ -1,0 +1,276 @@
+body{
+  background-color: yellow;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+.nav_var{
+  padding: 10px;
+  font-size: 30px;
+  margin-left: 45%;
+  background-color:yellow;
+}
+.nav_var a{
+  text-decoration: none;
+  padding: 10px 20px;
+  color:black;
+  border-bottom: 2px solid yellow;
+  font-weight: 800;
+}
+.nav_var a:hover{
+  border-bottom: 2px solid red;
+  color: red;
+  font-weight: 800;
+}
+.Himanshu{
+  font-size: 2.5rem;
+  margin-left: 10%;
+  text-decoration: none;
+  color:rgb(243, 7, 121);
+  font-weight: 800;
+  border-bottom: 2px solid yellow;
+}
+.Himanshu:hover{
+border-bottom: 2px solid rgb(243, 7, 121);
+}
+.my_photo{
+  height: 400px;
+  width: 365px;
+  border-radius: 175%;
+  margin-right: 10px;
+  filter: drop-shadow(20px 20px 100px red);
+}
+.hello{
+  margin: 100px;
+}
+.all{
+  display: flex;
+  justify-content: space-between;
+}
+.full{
+  color: red;
+}
+.detail{
+  font-size: 20px;
+}
+.linkdin{
+  width: 50px;
+  border-radius: 15px;
+  margin:15px;
+  background-color: blue;
+}
+.instagramicon{
+  width: 50px;
+  border-radius: 13px;
+  margin:15px;
+  background-color:rgb(248, 9, 140) ;
+}
+.github{
+  width:50px;
+  margin-bottom: 14px;
+  border-radius: 13px;
+  margin-left: 14px;
+  background-color:white;
+}
+.color{
+  color: blue;
+}
+.about_me{
+  font-size: 60px;
+  font-weight: 800;
+  margin-right: 0%;
+}
+.about_full{
+  font-weight: 800;
+  color: red;
+  font-size: 30px;
+}
+.my_image{
+  width: 300px;
+  border-radius: 1000px;
+  filter: drop-shadow(20px 20px  100px red);
+  margin-right:0%;
+  height: 320px;
+  margin-top: 5%;
+}
+.main{
+  display: flex;
+  justify-content: space-between;
+}
+.full_deatils{
+  font-size: 20px;
+  line-height: 40px;
+}
+.button_about_me{
+  font-size: 30px;
+  border-radius: 20px;
+  margin-bottom: 63px;
+  background-color: blue;
+  border-color: blue;
+  filter: drop-shadow(0px 0px 10px blue);
+}
+.button_about_me:hover{
+  filter: drop-shadow(0px 0px 10px red);
+  font-size: 35px;
+}
+.linkdin:hover{
+  filter: drop-shadow(0px 0px 10px blue);
+}
+.instagramicon:hover{
+  filter: drop-shadow(0px 0px 10px rgb(248, 9, 140));
+}
+.github:hover{
+  filter: drop-shadow(0px 0px 10px black);
+}
+.skills{
+  font-size: 60px;
+  font-weight: 800;
+  margin-left: 295px;
+  padding: 10px;
+}
+.Certificate{
+margin-left: 9%;
+color: red;
+font-weight: 800;
+}
+.CSS{
+  width: 40%;
+}
+.skills_class{
+ display: flex;
+ justify-content: space-between;
+}
+.HTML_Certieficat{
+  color: red;
+  font-weight: 800;
+  margin-right: 9%; 
+}
+.HTML{
+  width: 40%;
+  margin-left: 19.6%;
+}
+.skill_buton{
+  font-size: 30px;
+  border-radius: 20px;
+  background-color: blue;
+  border-color: blue;
+  filter: drop-shadow(0px 0px 10px blue);
+  margin:25px;
+  margin-left: 42%;
+}
+.skill_buton:hover{
+  filter: drop-shadow(0px 0px 10px red);
+  font-size: 35px;
+}
+.project{
+  font-size: 60px;
+  font-weight: 800;
+  margin-left: 295px;
+  padding: 10px;
+}
+.about_project{
+  text-align: center;
+  font-size: 45px;
+  font-weight: 800;
+  margin-top: 10%;
+}
+.Myntra{
+  color: red;
+  font-weight: 800;
+}
+.link_project{
+  font-size: 45px;
+  font-weight: 800;
+  text-align: center;
+  margin-top: 2%;
+}
+.link_project a{
+  text-decoration: none;
+  border-bottom: 2px solid yellow;
+  color: rgb(3, 155, 3);
+}
+.link_project a:hover{
+  border-bottom: 2px solid rgb(3, 155, 3);
+}
+.more_project{
+  font-size: 30px;
+  border-radius: 20px;
+  background-color: blue;
+  border-color: blue;
+  filter: drop-shadow(0px 0px 10px blue);
+  margin:25px;
+  margin-left: 42%;
+  margin-top: 5%;
+  margin-bottom: 11%;
+}
+.more_project:hover{
+  filter: drop-shadow(0px 0px 10px red);
+  font-size: 35px;
+}
+.Contact{
+  font-size: 60px;
+  font-weight: 800;
+  margin-left: 295px;
+  padding: 10px;
+}
+.watsapp{
+  width: 50px;
+  background-color:rgb(7, 245, 7);
+  border-radius: 14px;
+  margin-right: 25px;
+}
+.instagram{
+  width: 50px;
+  background-color:rgb(248, 9, 140);
+  border-radius: 14px;
+  margin-right: 25px;
+}
+.facebook{
+  width: 50px;
+  background-color:blue;
+  border-radius: 14px;
+  margin-right: 25px;
+}
+.youtube{
+  width: 50px;
+  background-color:red;
+  border-radius: 14px;
+}
+.linkdin_icon{
+  width: 50px;
+  background-color:blue;
+  border-radius: 14px;
+  margin-right: 25px;
+}
+.email{
+  width: 50px;
+  background-color:rgb(246, 154, 6);
+  border-radius: 14px;
+  margin-right: 25px;
+}
+.icons_contact{
+text-align: center;
+margin-top: 213px;
+margin-bottom: 213px;
+}
+.linkdin_icon:hover{
+  filter: drop-shadow(0px 0px  10px blue);
+}
+.watsapp:hover{
+  filter: drop-shadow(0px 0px 10px rgb(7, 245, 7));
+}.email:hover{
+  filter: drop-shadow(0px 0px 10px rgb(246, 154, 6));
+}
+.instagram:hover{
+  filter: drop-shadow(0px 0px 10px rgb(248, 9, 140));
+}
+.facebook:hover{
+  filter: drop-shadow(0px 0px 10px blue);
+}
+.youtube:hover{
+  filter: drop-shadow(0px 0px 10px red);
+}
+.footer{
+  text-align: center;
+}
